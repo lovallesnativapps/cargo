@@ -1,0 +1,329 @@
+
+.App-wrapp{
+    width: 90%;
+    margin-top: 5%;
+}
+.App-logo{
+    height: 30px;
+    width: 150px;
+    display: inline-block; 
+}
+.App-sideList{
+    background-color: #95989A;
+    padding: 30px;
+    color:#F2F2F2;
+}
+
+input[type="button"]{
+border-color: none;
+}
+Button p{
+    text-transform: none;
+    margin-right: 10px;
+    border-color: none;
+}
+button p img{
+    color:white;
+}
+.header{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input{
+	display: inline;
+	color:black;
+    margin-left: 0px;
+}
+input[type="text"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+}
+main{
+    width: 90%;
+    height: 100%;
+}
+.menu{
+    padding:30px;
+}
+.option_map{
+ margin-top: 2%;   
+}
+.option_maps{
+    float: right;
+    border: none;
+    background-color: 
+}
+.icon_window{
+    border-right: 2px solid #aaa;
+    padding-right: 15px;
+}
+.search_box{
+    display: inline;
+    background: #fcfcfc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+}
+#search_box_button{
+    background-color: #F77522;
+    border:  none;
+}
+#search_box_button button{
+    color: white;
+}
+.search_box input:focus {
+    background-color: transparent;
+    outline: none;
+}
+.search_cars{
+	background-color: transparent;
+}
+.title_dashboard{
+    color:#aaa;
+    padding-Top: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    color: #F2F2F2;
+    padding: 10px;
+}
+
+/* ############ ALL STYLE FOR SCREENS < 1024px ############ */
+
+/* For Screen size max-width 1500px */
+@media (max-width:1500px ) and (min-width:1025px) {
+    /* JUST CHANGE THE SIZE OF THE MAP AND TABS */
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 5%;
+    }
+    .group_search{
+        margin-left:14px;
+    }
+    .icon_location{
+        height:24px;
+        margin-right:1px;
+    }
+    .map_component{
+        height: 400px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+        position: relative;
+        background: #fcfcfc;
+        height: 21%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+    .search_box{  
+        display: inline;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .search_box input {
+        margin-top: 2%;
+    }
+    
+}
+/* For Screen size max-width 1024px */
+@media (max-width:1024px ) and (min-width:985px) {
+    /* JUST CHANGE THE SIZE OF THE MAP AND TABS */
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 5%;
+    }
+    .icon_location{
+        margin-right: 3px;
+    }
+    .map_component{
+        height: 400px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+        position: relative;
+        background: #fcfcfc;
+        height: 19%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .search_box{  
+        display: inline;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        
+    }
+    .search_box input {
+        margin-top: 2%;
+    }
+    .title_dashboard{
+        color:#aaa;
+        padding-Top: 15px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+/* For Screen size max-width 960px */
+@media (max-width:984px) and ( min-width:807px){
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 5%;
+    }
+    .group_search{
+        padding-top: 9px;
+    }
+    .icon_location{
+
+    }
+    .map_component{
+        height: 450px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+        position: relative;
+        background: #fcfcfc;
+        height: 19%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 13%;
+        margin-left: 2%;
+    }
+    .search_box{  
+        display: inline;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        margin-left: 2%;
+    }
+    .title_dashboard{
+        color:#aaa;
+        padding-Top: 15px;
+        margin-bottom: 0px;
+    }
+  
+}
+/* For Screen size max-width 800px */
+@media (max-width: 806px) and (min-width:710px) {
+    /* put the search box 2x2 */
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 5%;
+    }
+    .map_component{
+        height: 400px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+        position: relative;
+        background: #fcfcfc;
+        height: 19%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .title_dashboard{
+        color:#aaa;
+        padding-Top: 15px;
+        margin-bottom: 0px;
+        margin-top: -8px;
+    }
+    .search_box input{
+        width: 12%;
+    }
+}
+/* For Screen size max-width 600px */
+@media (max-width: 709px) and (min-width:620px) {
+    /* put the search box 2x2 */
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 5%;
+    }
+    .map_component{
+        height: 400px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+
+        background: #fcfcfc;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 16%;
+        margin-left: 10%;
+    }
+    .title_dashboard{
+        color:#aaa;
+        margin-bottom: 15px;
+    }
+    .search_box{  
+        display: inline-block;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+    }
+    .search_box .search_box_button{
+        display: none;
+    }
+}
+/* For Screen size max-width 480px */
+@media only screen and (max-width:619px ) and (min-width:411px) {
+    /* put the search box 1 after other  more little*/
+    .wrap_map{
+        width: 80%;
+        background-color: #fcfcfc;
+        margin-left: 10%;
+    }
+    .map_component{
+        height: 400px;
+        width:100%;
+        text-align: center;
+    }
+    .search_cars{
+        background: #fcfcfc;
+        width: 90%;
+        border-radius: 10px;
+        margin-top: 16%;
+        margin-left: 7%;
+    }
+    .title_dashboard{
+        color:#aaa;
+        padding-Top: 15px;
+        margin-bottom: 10px;
+        margin-left: -4px;
+    }
+    
+}

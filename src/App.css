@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 45px;
+  width: 300px;
+}
+.App-login{
+  text-align: center;
+  margin-top: 10%;
+}
+.App-login-button{
+  color: white;
+  background-color:transparent;
+  border: 1px solid white;
+  padding:8px;
+  margin-top: 40px;
+}
+.App-login-buttons{
+  margin: 8%;
+  display: inline-grid;
+}

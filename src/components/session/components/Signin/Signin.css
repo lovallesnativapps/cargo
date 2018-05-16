@@ -1,0 +1,59 @@
+body{
+    background-color: #F77522;
+  }
+  .App-wrapp{
+      width: 90%;
+      margin-top: 5%;
+  }
+  .App-login-signIn{
+    background-color:#253399;
+    color:white;
+    border: 1px solid blue;
+    width: 25%;
+  }
+  .App-field{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      padding-bottom: 20px;
+  }
+  .App-signin-form{
+    /* background-color: red; */
+    margin-top: 20px;
+    padding: 20px;
+  }
+  h3{
+    color:white;
+    text-align: center;
+  }
+  label{
+    color :#FFDEAD;
+  }
+  input{
+  display: list-item;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background-color: transparent;
+  color:white;
+  }
+  
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    text-align: center;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    text-align: center;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    text-align: center;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: white;
+    text-align: center;
+  }

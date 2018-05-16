@@ -1,0 +1,62 @@
+body{
+  background-color: #F77522;
+}
+.App {
+    text-align: center;
+  }
+.App-wrapp{
+  width: 90%;
+  margin-top: 5%;
+}
+.App-login{
+  text-align: center;
+  margin-top: 10%;
+}
+.App-logo {
+  height: 45px;
+  width: 300px;
+}
+.App-login-buttons{
+  margin: 8%;
+  display: inline-grid;
+}
+.App-login-button{
+  color: white;
+  background-color:transparent;
+  border: 1px solid white;
+  padding:8px;
+  margin-top: 40px;
+}
+h3{
+  color:white;
+  text-align: center;
+}
+input{
+display: list-item;
+margin-bottom: 10px;
+border-bottom: 1px solid white;
+border-top: transparent;
+border-left: transparent;
+border-right: transparent;
+background-color: transparent;
+color:white;
+}
+label{
+  color :#FFDEAD;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  text-align: center;
+}
